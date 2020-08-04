@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>form_Quiz</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script defer src= "script/script.js"></script>
+</head>
+<body>
+<form action="https://www.naver.com" id= "frm">
+		<table>
+			<tr>
+				<td>
+					<input placeholder= "아이디"
+					   name= "ID" id= "uId">
+					   <span id= "idChk"></span>
+				</td>
+				<td rowspan= "2">
+					<button type= "button" onclick= "fnSbm()">로그인</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input placeholder= "비밀번호"
+					   name= "PW" id= "uPw">
+					   <span id= "pwChk"></span>
+				</td>
+			</tr>
+	</table>
+
+	<table class= "bottom">
+			<tr>
+				<td>
+					<span>회원가입│</span>
+                    <span>아이디찾기│ </span>
+					<span>비밀번호 찾기</span>
+				</td>
+			</tr>
+	</table>
+</form>
+</body>
+</html>
